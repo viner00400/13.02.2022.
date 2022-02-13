@@ -1,0 +1,88 @@
+footer {
+  background-color: var(--orange);
+  padding: 100px 0;
+}
+
+footer .footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .footer_wrapper .footer_links ul {
+  max-width: 289px;
+}
+
+footer .footer_wrapper .footer_links ul li {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 211.88%;
+  /* or 38px */
+
+  color: #3e3b3b;
+
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+footer .footer_wrapper .contacts ul {
+  max-width: 323px;
+}
+
+footer .footer_wrapper .contacts ul li {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 152.59%;
+  /* or 27px */
+
+  color: #3e3b3b;
+  word-wrap: break-word;
+  cursor: pointer;
+  padding-left: 34px;
+
+  position: relative;
+
+  margin-bottom: 10px;
+}
+
+footer .footer_wrapper .contacts ul li a {
+  display: block;
+  all: inherit;
+  padding-left: 0;
+  margin-bottom: 3px;
+}
+
+footer .footer_wrapper .contacts ul li::before {
+  position: absolute;
+  content: "";
+
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #3e3b3b;
+  left: 0;
+  top: 2px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer_wrapper .contacts ul li.adress::before {
+  content: url(/src/images/maps-and-flags\ 1.png);
+}
+footer .footer_wrapper .contacts ul li.adres::before {
+  content: url("/src/images/111\ \(1\).png");
+}
+footer .footer_wrapper .contacts ul li.adre::before {
+  content: url("/src/images/111\ \(2\).png");
+}
