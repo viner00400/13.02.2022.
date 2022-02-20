@@ -158,7 +158,57 @@ main .questions_wrapper form button[type="submit"] {
 
   padding: 25px 5px;
 }
+@media screen and (max-width: 1260px) {
+  main h1 {
+    font-size: 36px;
+  }
+  main .main-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  main .main-text {
+    margin-top: 20px;
+  }
+  main .main-text p {
+    margin: 20px auto 0;
+    width: 80%;
+    text-align: center;
+  }
+  main .delivery .delivery-item.big,
+  main .delivery .delivery-item.mid,
+  main .delivery .delivery-item.sm {
+    width: 100%;
+    text-align: center;
+  }
 
+  main .questions_wrapper form h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  main .questions_wrapper form p {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  main .questions_wrapper form input,
+  main .questions_wrapper form textarea {
+    padding: 17px 10px;
+    max-width: 300px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  main .questions_wrapper form button[type="submit"] {
+    padding: 15px 5px;
+    max-width: 250px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  main .questions_wrapper img {
+    display: none;
+  }
+  main .questions_wrapper {
+    justify-content: center;
+  }
+}
 /* 
 
 main .questions_wrapper form button[type="submit"] {
